@@ -17,7 +17,7 @@ const io = new Server(server, {
 
 
 const db = createClient({
-    url: "libsql://realtime-chat-jer403.turso.io",
+    url: "laputa",
     authToken: process.env.DB_TOKEN
 })
 
