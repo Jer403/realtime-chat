@@ -16,6 +16,7 @@ const io = new Server(server, {
 })
 
 
+
 const db = createClient({
     url: "laputa",
     authToken: process.env.DB_TOKEN
